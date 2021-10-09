@@ -1,3 +1,4 @@
 - [Basics](basics.md)
 - [Pods](pods.md)
 - [Replication Controllers & Replica Sets](replication.md)
+- [Secrets](secrets.md)
