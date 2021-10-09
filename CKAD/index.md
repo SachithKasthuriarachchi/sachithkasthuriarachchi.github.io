@@ -5,3 +5,4 @@
 - [Kubernetes Security](security.md)
 - [Service Accounts](service-account.md)
 - [Kube-Scheduler](kube-scheduler.md)
+- [Taints & Tolerations](taints-tolerations.md)
