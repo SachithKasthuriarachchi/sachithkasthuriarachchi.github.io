@@ -1,1 +1,1 @@
-- [Basics](https://github.com/SachithKasthuriarachchi/sachithkasthuriarachchi.github.io/blob/main/CKAD/basics.md)
+- [Basics](basics.md)
