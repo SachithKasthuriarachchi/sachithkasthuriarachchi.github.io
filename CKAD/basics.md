@@ -43,3 +43,5 @@ Kubernetes definitions in yaml always have following 4 manodotory properties in 
 
 ---
 [Part 2](basics-part2.md)
+
+[Back](index.md)
