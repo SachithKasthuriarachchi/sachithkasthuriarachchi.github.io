@@ -112,4 +112,5 @@ create a pod and expose it:
 
 `kubectl run pod-name --image=image --port=8080 --expose`
 
-[<< prev](basics.md)[>> next](basics-part3.md)
+[<< prev](basics.md)  
+[>> next](basics-part3.md)
