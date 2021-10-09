@@ -18,3 +18,5 @@ When creating secrets we need to provide the values in an encoded format (base64
 - `echo -n 'value' | base64 --decode`: decoding
 
 If we mount the secret as a volume in the pod, each property will create a file whose content is the secret value.
+
+[Back](index.md)
