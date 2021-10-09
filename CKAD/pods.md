@@ -8,3 +8,5 @@ Pod can have multiple containers inside it which are not same. That means we can
 - `kubectl get pods -o wide`: IP address, nodes placed on, nominated nodes, readiness gates information will be displayed
 
 - `kubectl run redis --image=redis123 --dry-run=client -o yaml > pod.yaml`: Creates the yaml definition of the pod
+
+[Back](index.md)
