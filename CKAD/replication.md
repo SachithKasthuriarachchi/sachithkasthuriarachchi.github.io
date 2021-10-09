@@ -55,3 +55,5 @@ the selector specifies, which pods this replicaset needs to be applied for. The 
 
 - `kubectl replace -f file-name` can be used to update existing resource.
 - `kubectl scale --replicas=6 -f replicaset-definition.yaml` or `kubectl scale --replicas=6 replicaset replicaset-name` can be used to update the replica count.
+
+[Back](index.md)
