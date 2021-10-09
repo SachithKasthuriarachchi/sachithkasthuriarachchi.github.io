@@ -29,3 +29,14 @@ Kubectl is the command line tool to interact with clusters and nodes.
 	 kubectl run <application-name>: Runs an application on a k8s cluster
 	 kubectl get nodes: Lists all the nodes in a cluster
 	 kubectl cluster-info: Returns cluster info
+	 kubectl get pods: List the pods
+         kubectl describe pod myapp-pod: Get more details about the pods (creation time, labels assigned, what docker containers are part of it, events associated with pod)
+	 kubectl create -f pod-definition.yaml: Creates the resource from pod-definition.yaml
+	 
+## K8S Manifests
+Kubernetes definitions in yaml always have following 4 manodotory properties in the yaml file. They are,
+
+- apiVersion
+- kind
+- metadata
+- spec
