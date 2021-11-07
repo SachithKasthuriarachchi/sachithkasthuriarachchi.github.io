@@ -1,6 +1,8 @@
 # Kubernetes Security
 
-If you specify security settings both on container and pod levels, the container level security specifications will override that of pod level.
+If you specify security settings both on container and pod levels, the container level security specifications will
+override that of pod level.
+
 ```
 apiVersion: v1
 kind: Pod
@@ -19,6 +21,7 @@ spec:
         add: 
           - "MAC_ADMIN"
 ```
+
 Capabilities are only allowed in container level and not in pod level.
 
 [<< back](index.md)

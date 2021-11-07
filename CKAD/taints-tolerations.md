@@ -1,8 +1,11 @@
 # Taints and Toleration
 
-Ex: Humans apply insect repellents(taint) so that the bugs will not come near them. However, some bugs has **toleration** to such taints.
+Ex: Humans apply insect repellents(taint) so that the bugs will not come near them. However, some bugs has **
+toleration** to such taints.
 
-In kubernetes, humans are nodes and the bugs are pods. Taints and tolerations have nothing to do with security. It is just a restriction which nodes apply on pod. It decides what pods can be placed on which nodes. By default, pods have no toleration.
+In kubernetes, humans are nodes and the bugs are pods. Taints and tolerations have nothing to do with security. It is
+just a restriction which nodes apply on pod. It decides what pods can be placed on which nodes. By default, pods have no
+toleration.
 
 ```
 Taints: nodes
@@ -16,6 +19,7 @@ Tolerations: pod
 taint-effect = what happens to pods that do not tolerate this taint.
 
 ### Taint Effects:
+
 ```
   NoSchedule: pods will not be scheduled
   PreferNoSchedule: Scheduler will try not to schedule pods on the nodes
@@ -25,6 +29,7 @@ taint-effect = what happens to pods that do not tolerate this taint.
 ex: `kubectl taint nodes node1 app=blue:NoSchedule`
 
 ## Applying tolerations to pods.
+
 ```
 apiVersion: v1
 kind: Pod
@@ -40,9 +45,12 @@ spec:
       operator: "Equal"
       effect: "NoSchedule"
 ```
-All of the values inside tolerations needs to be **double quoted**. Taints and toleration **only** tells the node which pods it can accept. It doesn’t tell the pod to schedule on this specific node. The Scheduler does not schedule any pod on the master node.
 
-## How to see the taints  
+All of the values inside tolerations needs to be **double quoted**. Taints and toleration **only** tells the node which
+pods it can accept. It doesn’t tell the pod to schedule on this specific node. The Scheduler does not schedule any pod
+on the master node.
+
+## How to see the taints
 
 `kubectl describe node kubemaster | grep Taint`
 

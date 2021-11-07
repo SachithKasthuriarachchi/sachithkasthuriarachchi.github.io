@@ -1,6 +1,7 @@
 # Node Selectors
 
-We can define on which nodes the pod needs to be scheduled. This can be done by first labelling the nodes and then referring to that label inside the pod definition file. See the below example for how to use `nodeSelector`.
+We can define on which nodes the pod needs to be scheduled. This can be done by first labelling the nodes and then
+referring to that label inside the pod definition file. See the below example for how to use `nodeSelector`.
 
 ## Pods
 

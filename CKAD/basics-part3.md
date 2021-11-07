@@ -1,5 +1,7 @@
 ## Docker Containers
-container runs as long as the process inside it runs. Once the process stops, the container exits. Conatiners are meant to run some processes inside them instead of hosting operating systems.
+
+container runs as long as the process inside it runs. Once the process stops, the container exits. Conatiners are meant
+to run some processes inside them instead of hosting operating systems.
 
 When specifying the CMD argument in a json array format, the first element should be the executable as follows.
 
@@ -9,12 +11,14 @@ ex: `CMD ["sleep", "5"]`
 FROM Ubuntu
 ENTRYPOINT ["sleep"]
 ```
+
 here, we can specify the number of seconds to sleep as follows when the image is run.
 
 `docker build -t ubuntu-sleeper .`
 `docker run ubuntu-sleeper 10` (This will sleep for 10s)
 
-So, basically in the CMD, whatever we specify when docker run is executed will replace whatever in the CMD. In the entrypoint, whatever we specify will be appended to the entrypoint when run.
+So, basically in the CMD, whatever we specify when docker run is executed will replace whatever in the CMD. In the
+entrypoint, whatever we specify will be appended to the entrypoint when run.
 
 We can specify default value for entrypoint by combining the entrypoint and cmd together.
 
@@ -24,9 +28,8 @@ ENTRYPOINT ["sleep"]
 CMD ["5"]
 ```
 
-In the above example, the `sleep 5` will be executed by default if we didn't specify an argument.
-We can also override the docker entrypoint at run time using the entrypoint argument.
-
+In the above example, the `sleep 5` will be executed by default if we didn't specify an argument. We can also override
+the docker entrypoint at run time using the entrypoint argument.
 
 `docker run --entrypoint <any-command> <arguments>`
 
@@ -45,9 +48,12 @@ spec:
     args: ["5"]
 ```
 
-We cannot edit all the fields of a running pod. We can only change container image, init container image, spec.activeDeadlineSeconds, spec.tolerations. We can't edit other fields. However, if we tried to edit those forbidden fileds, the new edited yaml will be saved to a temporary location where we can later create our pod from.
+We cannot edit all the fields of a running pod. We can only change container image, init container image,
+spec.activeDeadlineSeconds, spec.tolerations. We can't edit other fields. However, if we tried to edit those forbidden
+fileds, the new edited yaml will be saved to a temporary location where we can later create our pod from.
 
-However, we can edit any field of our deployment. Then the deployment will delete existing pod and creates new pods for each change we introduce.
+However, we can edit any field of our deployment. Then the deployment will delete existing pod and creates new pods for
+each change we introduce.
 
 ```
 env:
