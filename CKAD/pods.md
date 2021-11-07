@@ -18,4 +18,7 @@ scale up our application we have to deploye another pod running our application 
 
 - `kubectl run redis --image=redis123 --dry-run=client -o yaml > pod.yaml`: Creates the yaml definition of the pod
 
+---
+[Readiness and Liveness Probes](pod-conditions.md)
+
 [Back](index.md)

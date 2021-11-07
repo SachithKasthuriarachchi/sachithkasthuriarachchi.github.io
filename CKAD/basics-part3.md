@@ -92,4 +92,7 @@ data:
   FOO: bar
 ```
 
+---
+[Pods](pods.md)
+
 [<prev](basics-part2.md)
