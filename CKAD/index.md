@@ -11,3 +11,4 @@
 - [Multi-Container Pods](multicontainer-pods.md)
 - [Readiness & Liveness Probes](pod-conditions.md)
 - [Monitoring and Debug](monitoring-debug.md)
+- [Rolling Out](rollout.md)
