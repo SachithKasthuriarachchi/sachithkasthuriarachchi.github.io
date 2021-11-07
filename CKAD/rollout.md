@@ -58,4 +58,6 @@ rollback, we will not see the 2nd revision. Instead of that there will be anothe
 cause is set to that of 2nd one.
 
 ---
+[Jobs and CronJobs](jobs-cron.md)
+
 [Back](index.md)

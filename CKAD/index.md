@@ -12,3 +12,4 @@
 - [Readiness & Liveness Probes](pod-conditions.md)
 - [Monitoring and Debug](monitoring-debug.md)
 - [Rolling Out](rollout.md)
+- [Jobs and CronJobs](jobs-cron.md)
