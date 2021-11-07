@@ -37,4 +37,7 @@ account should not be automounted, you need to specify the below config.
 automountServiceAccountToken: false
 ```
 
-[<< back](index.md)
+---
+[Kube-Scheduler](kube-scheduler.md)
+
+[Back](index.md)

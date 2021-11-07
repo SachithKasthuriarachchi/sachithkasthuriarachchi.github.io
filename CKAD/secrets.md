@@ -19,4 +19,7 @@ When creating secrets we need to provide the values in an encoded format (base64
 
 If we mount the secret as a volume in the pod, each property will create a file whose content is the secret value.
 
+---
+[Kubernetes Security](security.md)
+
 [Back](index.md)

@@ -28,4 +28,7 @@ Ex: `kubectl label nodes node01 size=Large`
 
 However, nodeSelectors are for simple purposes only (for one label)
 
-[<< back](index.md)
+---
+[Node Affinity](node-affinity.md)
+
+[Back](index.md)

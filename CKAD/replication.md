@@ -62,4 +62,7 @@ applied for even the pods that has been created before the replicaset but, havin
 - `kubectl scale --replicas=6 -f replicaset-definition.yaml` or `kubectl scale --replicas=6 replicaset replicaset-name`
   can be used to update the replica count.
 
+---
+[Secrets](secrets.md)
+
 [Back](index.md)

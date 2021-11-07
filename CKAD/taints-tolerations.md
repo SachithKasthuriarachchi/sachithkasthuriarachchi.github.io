@@ -58,4 +58,7 @@ on the master node.
 
 `kubectl taint node controlplane node-role.kubernetes.io/master:NoSchedule-`
 
-[<< back](index.md)
+---
+[Node Selectors](node-selectors.md)
+
+[Back](index.md)

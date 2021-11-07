@@ -88,4 +88,4 @@ Logs: `kubectl logs -f <pod name> <container name>`
 ---
 [Multi-Container Pods](multicontainer-pods.md)
 
-[<< Prev](index.md)
+[Back](index.md)

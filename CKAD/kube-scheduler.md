@@ -71,4 +71,7 @@ spec:
 
 status `OOMKilled` means the pod is failing due to out of memory
 
-[<< back](index.md)
+---
+[Taints & Tolerations](taints-tolerations.md)
+
+[Back](index.md)

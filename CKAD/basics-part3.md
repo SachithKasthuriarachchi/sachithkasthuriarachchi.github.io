@@ -95,4 +95,4 @@ data:
 ---
 [Pods](pods.md)
 
-[<prev](basics-part2.md)
+[<< prev](basics-part2.md)

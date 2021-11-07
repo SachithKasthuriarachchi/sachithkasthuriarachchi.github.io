@@ -16,4 +16,7 @@ and proxy it to the correct db, we can use the ambassador design pattern.
 
 However, implementation is always identical for above design patterns.
 
-[<< back](index.md)
+---
+[Replication Controllers & Replica Sets](replication.md)
+
+[Back](index.md)
