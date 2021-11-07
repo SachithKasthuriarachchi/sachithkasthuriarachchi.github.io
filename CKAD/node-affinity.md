@@ -43,4 +43,7 @@ The second one places the pod in any node if the scheduler could not find a matc
 The `ignoredDuringExecution` ensures that the any change in the node affinity while the pod is running will be
 neglected. That means the pod will continue to run on the node it was scheduled.
 
-[<< back](index.md)
+---
+[Monitoring and Debug](monitoring-debug.md)
+
+[Back](index.md)
